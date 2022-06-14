@@ -1,0 +1,9 @@
+set_global_assignment -name SDC_FILE Gamate.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE Gamate.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/sdram.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/gamate_top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/YM2149.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/lcd.sv
+set_global_assignment -name VHDL_FILE rtl/bram.vhd
+set_global_assignment -name QIP_FILE rtl/T65/T65.qip
+
