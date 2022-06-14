@@ -1,4 +1,0 @@
-#!/bin/bash
-
-vsim -gui -novopt -do "do wave.do" work.render
-
